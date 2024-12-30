@@ -49,7 +49,7 @@
 
     <nav class="nav--mobile"><ul class="menu menu--mobile">
         <li class="menu__item">
-            <a class="menu__link active" href="#home">
+            <a class="menu__link active" href="#">
                 <i class="menu__icon bi bi-house-door"></i>
                 <span class="menu__text">Home</span>
             </a>
@@ -80,10 +80,10 @@
             <p>Felipe Marques, Belo Horizonte-MG, desenvolvedor Front-end.</p>
             <ul class="menu menu--social">
                 <li>
-                    <a class="menu__link menu__icon" href=""><i class="bi bi-github"></i></a>
+                    <a class="menu__link menu__icon" href="https://github.com/FelipeONMarques" target="_blank"><i class="bi bi-github"></i></a>
                 </li>
                 <li>
-                    <a class="menu__link menu__icon" href=""><i class="bi bi-linkedin"></i></a>
+                    <a class="menu__link menu__icon" href="https://www.linkedin.com/in/felipe-on-marques/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </li>
         </ul>
         <a href="#projetos">
@@ -117,14 +117,18 @@
         <h2>Projetos</h2>
 
         <div class="projects__card">
-            <img class="card__cover" src="" alt="REPRESENTAÇÃO PROJETO 1">
+            <img class="card__cover" src="src/img/imagem_pokedex.png
+            " alt="REPRESENTAÇÃO PROJETO 1">
             <div class="card__body">
-                <h3 class="card__title">TITULO DO PROJETO</h3>
-            <P class="card__description">DESCRIÇÃO DO PROJETO</P>
+                <h3 class="card__title">Pokedex</h3>
+            <P class="card__description">Pokedex usando a API pokeapi</P>
             <ul class="card__list">
-                <li>Carrinho de compras</li>
-                <li>Carrinho de compras</li>
-                <li>Carrinho de compras</li>
+                <li>Funcionamento do protocolo HTTP
+                </li>
+                <li>Interação com API
+                </li>
+                <li>Responsividade usando @media screen e comprimentos responsivos como o rem
+                </li>
             </ul>
 
             <ul class="skills__list">
@@ -135,27 +139,36 @@
             </ul>
 
             <div class="card__buttons">
-                <button class="btn btn--primary">
-                    <span>Prévia</span>
-                    <i class="bi bi-arrow-up-right"></i>
-                </button>
-                <button class="btn">
-                    <span>Repositório</span>
-                    
-                </button>
+                <a href="https://felipeonmarques.github.io/pokedex/" target="_blank">
+                    <button class="btn btn--primary">
+                        <span>Prévia</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                </a>
+
+
+                <a href="https://github.com/FelipeONMarques/pokedex" target="_blank">
+                    <button class="btn">
+                        <span>Repositório</span>
+                    </button>
+                </a>
+                
             </div>
             </div>
         </div>
 
         <div class="projects__card card--reverse">
-            <img class="card__cover" src="" alt="REPRESENTAÇÃO PROJETO 1">
+            <img class="card__cover" src="src/img/game_Jo-Ken-Po3.png" alt="REPRESENTAÇÃO PROJETO 1">
             <div class="card__body">
-                <h3 class="card__title">TITULO DO PROJETO</h3>
-            <P class="card__description">DESCRIÇÃO DO PROJETO</P>
+                <h3 class="card__title">Game Jo-Ken-Po</h3>
+            <P class="card__description">Um jogo de PEDRA, PAPEL e TESOURA feito com HTML - CSS - Javascript no tema do anime Yu-Gi-Oh</P>
             <ul class="card__list">
-                <li>Carrinho de compras</li>
-                <li>Carrinho de compras</li>
-                <li>Carrinho de compras</li>
+                <li>Lógica de Programação</li>
+                <li>Armazenamento e gerenciamento de estado manual
+                </li>
+                <li>Usando a Técnica de Extract to Method</li>
+                <li>Usando a biblioteca RPGUI
+                </li>
             </ul>
 
             <ul class="skills__list">
@@ -166,28 +179,116 @@
             </ul>
 
             <div class="card__buttons">
-                <button class="btn btn--primary">
-                    <span>Prévia</span>
-                    <i class="bi bi-arrow-up-right"></i>
-                </button>
-                <button class="btn">
-                    <span>Repositório</span>
-                    
-                </button>
+                <a href="https://felipeonmarques.github.io/Game_Jo-Ken-Po_Yu-Gi-Oh_Style/" target="_blank">
+                    <button class="btn btn--primary">
+                        <span>Prévia</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                </a>
+                <a href="https://github.com/FelipeONMarques/Game_Jo-Ken-Po_Yu-Gi-Oh_Style" target="_blank">
+                    <button class="btn">
+                        <span>Repositório</span>
+                    </button>
+                </a>
+                
             </div>
             </div>
         </div>
+
+        
+        <div class="projects__card">
+            <img class="card__cover" src="src/img/memory-game.png" alt="REPRESENTAÇÃO PROJETO 1">
+            <div class="card__body">
+                <h3 class="card__title">Memory-Game</h3>
+            <P class="card__description">Um jogo da memória usando apenas HTML, CSS e Javascript</P>
+            <ul class="card__list">
+                <li>Manipulação de DOM
+                </li>
+                <li>base do javascript
+                </li>
+                <li>comparação de Emojis
+                </li>
+            </ul>
+
+            <ul class="skills__list">
+                <li class="skills__item"><ion-icon name="logo-html5" class="skills__logo"></ion-icon></li>
+                <li class="skills__item"><ion-icon name="logo-css3" class="skills__logo"></ion-icon></li>
+                <li class="skills__item"><ion-icon name="logo-javascript" class="skills__logo"></ion-icon></li>
+                <li class="skills__item"><ion-icon name="logo-github" class="skills__logo"></ion-icon></li>
+            </ul>
+
+            <div class="card__buttons">
+                <a href="https://felipeonmarques.github.io/Memory-Game/" target="_blank">
+                    <button class="btn btn--primary">
+                        <span>Prévia</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                </a>
+                
+                <a href="https://github.com/FelipeONMarques/Memory-Game" target="_blank">
+                    <button class="btn">
+                        <span>Repositório</span>
+                    </button>
+                </a>
+                
+            </div>
+            </div>
+        </div>
+
         <div class="main__content1">
-            <button class="btn btn--primary">
-                <span>Ver todos os Projetos</span>
-                <i class="bi bi-arrow-up-right"></i>
-            </button>
+            <a href="https://github.com/FelipeONMarques" target="_blank">
+                <button class="btn btn--primary">
+                    <span>Ver todos os Projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </a>
         </div>
     </section>
 
     <section id="sobre" class="about">
         <div class="about__content1">
-            <img src="" alt="ROSTO DO BONITÃO QUE ESTÁ CRIANDO A PÁGINA">
+            <img src="https://avatars.githubusercontent.com/u/62675957?v=4" alt="Foto do Felipe">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>Felipe Marques. Apaixonado por vídeo game e tecnologia, foi na faculdade que tive meu primeiro contato com a programação. Nela acabei gostando mais da área Front-end onde estou focado nos estudos. Atualmente sou formado em Ciências da Computação, porém, busco sempre me manter atualizado</p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Básico</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/felipe-on-marques/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span>Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3>Formação</h3>
+                    <h4>Ciências da Computação</h4>
+                    <span>Jan/2020 à Dez/2023 </span>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Universidade Cruzeiro do Sul Virtual</span>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h3>Experiências</h3>
+                    <h4>Estágio em TI</h4>
+                    <span>Escola Municipal Padre Marzano Matias -  22/06/2022 à 11/01/2024</span> <br>
+                    <span>Abrindo chamados em caso de defeito de equipamento, auxílio no uso de tablets e microcomputadores tanto para alunos quanto para professores, aulas de informática básica. </span>
+                </div>
+            </div>
         </div>
     </section>
 
